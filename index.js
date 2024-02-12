@@ -47,10 +47,7 @@ function createDice(number) {
 		dot.style.setProperty("--left", dotPosition[1] + "%");
 		dice.appendChild(dot);
 	}
-<<<<<<< HEAD
 
-=======
->>>>>>> c9fea0f58e7cd01d1da676356718871b5b8971a8
 	return dice;
 }
 
@@ -77,8 +74,4 @@ btnRollDice.addEventListener("click", () => {
 	}, 50);
 
 	setTimeout(() => clearInterval(interval), 1000);
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> c9fea0f58e7cd01d1da676356718871b5b8971a8

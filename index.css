@@ -1,12 +1,8 @@
 .dice-container {
 	display: flex;
 }
-body{
-<<<<<<< HEAD
-  background-color: #9d9d9d;
-=======
-  background-color:#9d9d9d:
->>>>>>> c9fea0f58e7cd01d1da676356718871b5b8971a8
+body {
+	background-color: #9d9d9d;
 }
 
 .dice {
@@ -16,10 +12,7 @@ body{
 	margin: 5px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-<<<<<<< HEAD
-	background-color: aliceblue;
-=======
->>>>>>> c9fea0f58e7cd01d1da676356718871b5b8971a8
+	background-color: rgb(255, 255, 255);
 }
 
 .dice-dot {
@@ -31,6 +24,7 @@ body{
 	background-color: #000000;
 	border-radius: 50%;
 
+	/* Dot Positioning */
 	position: absolute;
 	top: var(--top);
 	left: var(--left);
@@ -38,12 +32,5 @@ body{
 }
 
 .btn-roll-dice {
-<<<<<<< HEAD
 	margin-top: 10px;
-	
 }
-=======
-	margin-top: 15px;
-  margin-left: 10px;
-}
->>>>>>> c9fea0f58e7cd01d1da676356718871b5b8971a8
